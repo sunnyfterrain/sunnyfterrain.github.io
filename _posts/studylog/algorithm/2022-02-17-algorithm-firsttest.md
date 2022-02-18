@@ -4,6 +4,8 @@ title:    "알고리즘 리스트 테스트"
 subtitle: "알고리즘 리스트 테스트"
 category: studylog
 tags:     algorithm
+image:
+  path:    /assets/img/algorithm/algorithm.jpg
 ---
 
 > 알고리즘 게시글 테스트
