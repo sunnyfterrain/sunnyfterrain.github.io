@@ -1,21 +1,9 @@
 ---
 layout: post
-title: "life test 2"
-subtitle: "life test 2"
+title: "Github 블로그 세팅이 완료되다."
+subtitle: "Github 블로그 세팅이 완료되다."
 category: life
 tags: life
 ---
 
->테스트
-
-<!--more-->
-
-* this unordered seed list will be replaced by the toc
-{:toc}
-
-# 테스트1
-## 테스트2
-
-life second test 입니다.
-
-# 테스트3
+블로그 세팅이 드디어 끝났다.
