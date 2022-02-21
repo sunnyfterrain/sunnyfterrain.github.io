@@ -25,7 +25,7 @@ timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  예비 프론트엔드 개발자 남용현의 블로그 입니다.
+  프론트엔드의 개발새싹🌱 남용현의 블로그 입니다.
 
 # A shorter description for the sidebar.
 tagline: >
