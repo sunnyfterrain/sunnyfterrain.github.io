@@ -12,6 +12,8 @@ HTML을 마크업하고 CSS를 적용할 때 상단 NAV 메뉴바를 만들었�
 
 [mdn 공식문서]: (https://developer.mozilla.org/ko/docs/Web/CSS/position)
 
+<!-- more -->
+
 - this ordered seed list will be replaced by the toc
   {:toc}
 

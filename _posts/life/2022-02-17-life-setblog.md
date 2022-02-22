@@ -9,6 +9,8 @@ tags: life
 [velog]: (https://velog.io/)
 [hydejack]: (https://hydejack.com/)
 
+<!-- more -->
+
 1. this ordered seed list will be replaced by the toc 
 {:toc}
 
