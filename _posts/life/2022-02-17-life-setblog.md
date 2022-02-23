@@ -5,9 +5,9 @@ subtitle: 'Github 블로그 세팅이 완료! Velog 에서 온 이유?'
 category: life
 tags: life
 ---
-[테마]:(http://jekyllthemes.org/)
-[velog]: (https://velog.io/)
-[hydejack]: (https://hydejack.com/)
+[테마]:http://jekyllthemes.org/
+[velog]:https://velog.io/
+[hydejack]:https://hydejack.com/
 
 <!-- more -->
 
