@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Github 블로그 세팅이 완료되다.'
-subtitle: 'Github 블로그 세팅이 완료되다.'
+title: 'Github 블로그 세팅이 완료! Velog 에서 온 이유?'
+subtitle: 'Github 블로그 세팅이 완료! Velog 에서 온 이유?'
 category: life
 tags: life
 ---
