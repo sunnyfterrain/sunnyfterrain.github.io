@@ -291,11 +291,9 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.9)
   jekyll-compose
-  jekyll-feed
   jekyll-include-cache
   jekyll-last-modified-at
   jekyll-paginate
-  jekyll-sitemap
   jekyll-theme-hydejack
   webrick (~> 1.7)
 
