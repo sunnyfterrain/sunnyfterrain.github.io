@@ -382,14 +382,13 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-paginate
   - jemoji
-  - jekyll-sitemap
-  - jekyll-feed
+ 
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: 'zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM'
+ google_site_verification: 'jzkcfCHYI2K1g5Piq7x56aUHKn6HcFNUa6ZBZgafgWA'
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
