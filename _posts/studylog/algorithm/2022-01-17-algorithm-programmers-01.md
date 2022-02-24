@@ -10,13 +10,14 @@ image:
 [프로그래머스 #12919 : 서울에서 김서방 찾기]:https://programmers.co.kr/learn/courses/30/lessons/12919
 <!--more-->
 * this ordered seed list will be replaced by the toc
-{:toc}
-# 서울에서 김서방 찾기
----  
-<br>  
+{:toc}  
 
 [프로그래머스 #12919 : 서울에서 김서방 찾기]
 {:.note title="Link"}  
+# 서울에서 김서방 찾기
+---  
+
+
 
 
 ## 문제 설명
@@ -28,13 +29,13 @@ image:
 ## 제한사항
 >* seoul은 길이 1 이상, 1000 이하인 배열입니다.  
 >* seoul의 원소는 길이 1 이상, 20 이하인 문자열입니다.  
->* "Kim"은 반드시 seoul 안에 포함되어 있습니다.  
+>* "Kim"은 반드시 seoul 안에 포함되어 있습니다.
 
 ## 입출력 예  
 
-|seoul|return|
-|---|---|
-|["Jane", "Kim"]|"김서방은 1에 있다"|  
+| seoul |    return     |
+| :-------: | :---------: |
+| ["Jane", "Kim"] | "김서방은 1에 있다" |
 
 ## 풀이  
 
