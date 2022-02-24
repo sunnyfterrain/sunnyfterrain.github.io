@@ -382,7 +382,6 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-paginate
   - jemoji
-  - jekyll-admin
   - jekyll-sitemap
   - jekyll-feed
 
