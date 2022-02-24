@@ -388,7 +388,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
- google_site_verification: 'jzkcfCHYI2K1g5Piq7x56aUHKn6HcFNUa6ZBZgafgWA'
+google_site_verification: "jzkcfCHYI2K1g5Piq7x56aUHKn6HcFNUa6ZBZgafgWA"
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
