@@ -4,6 +4,6 @@ title: Projects
 show_collection: projects
 sidbar: false
 description: >
-  All the projects I've done so far.
+  프로젝트 없음 현재
 no_groups: true
 ---

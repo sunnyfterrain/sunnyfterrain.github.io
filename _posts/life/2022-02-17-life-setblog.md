@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Github 블로그 세팅이 완료! Velog 에서 온 이유?'
-subtitle: 'Github 블로그 세팅이 완료! Velog 에서 온 이유?'
+title: 'Github 블로그 세팅이 완료! Velog 에서 옮긴 이유?'
+subtitle: 'Github 블로그 세팅이 완료! Velog 에서 옮긴 이유?'
 category: life
 tags: life
 ---
@@ -51,7 +51,7 @@ tags: life
 하지만 내가 생각하기에 벨로그의 단점은 따로 메뉴가 없다는 것! Tag로만 의존하고 있다.  
 <br>
 
-![velog](/assets/img/life/2022-02-17-life/2022-02-17-velog.png){:.centered} 따로 메뉴 카테고리가 존재하지 않는다ㅠㅠ  
+![velog](/assets/img/life/2022-02-17-life/2022-02-17-velog.png){:.centered} 따로 메뉴 카테고리가 존재하지 않는다  
 {:.figcaption}  
 <br>
 이것이 너무 불편했다ㅠㅠ 모아놓고 싶은 글이 있으면 관련 메뉴를 만들어 보관하고 싶은데  
