@@ -15,7 +15,9 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-compose'
   gem "jekyll-paginate"
-
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
 end
 
 gem "jekyll-theme-hydejack"
