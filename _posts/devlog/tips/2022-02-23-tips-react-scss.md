@@ -27,6 +27,7 @@ tags: tips react scss
   * npm 일 경우 `npm install node-sass`  
 
 * 끝이다. 아주 간단하다.  
+* 당연하겠지만 scss를 사용할 해당 리액트 앱 마다 따로 다 해줘야 한다.  
 
 ![json](/assets/img/tips/2020-02-23-react-scss/2022-02-23-react-scss.png){:.centered} package.json 파일  
 {:.figcaption}  
@@ -36,5 +37,7 @@ tags: tips react scss
 ## 사용방법  
 ---  
 
-사용방법은 CSS와 별반 다르지 않다. 원하는 폴더에 style.scss 파일을 만들고  
-`import ./style.scss` 해주면 알아서 컴파일 해 준다.
+이제 작업 하던 CSS의 확장자를 SCSS(SASS) 로 변경하자!!  
+적용할 컴포넌트의  `import` 도 CSS에서 SCSS(SASS) 로 변경 해준다.  
+
+저장 하고 `npm start` 하면 아주 잘 적용되는 것을 볼 수 있다!  
