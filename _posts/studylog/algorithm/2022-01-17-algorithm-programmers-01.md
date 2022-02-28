@@ -1,52 +1,77 @@
 ---
 layout:   post
-title:    "[프로그래머스 #12919] 서울에서 김서방 찾기"
-subtitle: "[프로그래머스 #12919] 서울에서 김서방 찾기"
+title:    "[프로그래머스 #12922] 수박수박수박수박수박수?"
+subtitle: "[프로그래머스 #12922] 수박수박수박수박수박수?"
 category: studylog
 tags:     algorithm
 image:
   path:    /assets/img/algorithm/algorithm.jpg
 ---
-[프로그래머스 #12919 : 서울에서 김서방 찾기]:https://programmers.co.kr/learn/courses/30/lessons/12919
+[프로그래머스 #12922 : 수박수박수박수박수박수?]:https://programmers.co.kr/learn/courses/30/lessons/12922
 <!--more-->
 * this ordered seed list will be replaced by the toc
 {:toc}  
 
-[프로그래머스 #12919 : 서울에서 김서방 찾기]
+[프로그래머스 #12922 : 수박수박수박수박수박수?]
 {:.note title="Link"}  
-# 서울에서 김서방 찾기
+# 수박수박수박수박수박수?
 ---  
-> 알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.
+__알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.__  
+
 ## 문제 설명
-> String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아,  
-> "김서방은 x에 있다"는 String을 반환하는 함수, solution을 완성하세요.  
-> seoul에 "Kim"은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.  
+>길이가 n이고, "수박수박수박수...."와 같은 패턴을 유지하는 문자열을 리턴하는 함수,
+>solution을 완성하세요. 예를들어 n이 4이면 "수박수박"을 리턴하고 3이라면 
+>"수박수"를 리턴하면 됩니다.  
 
 
-## 제한사항
->* seoul은 길이 1 이상, 1000 이하인 배열입니다.  
->* seoul의 원소는 길이 1 이상, 20 이하인 문자열입니다.  
->* "Kim"은 반드시 seoul 안에 포함되어 있습니다.
+## 제한 조건
+>* n은 길이 10,000이하인 자연수입니다.  
+
 
 ## 입출력 예  
 
-| seoul |    return     |
+| n |    return     |
 | :-------: | :---------: |
-| ["Jane", "Kim"] | "김서방은 1에 있다" |
+| 3 | "수박수" |
+| 4 | "수박수박" |
 
-## 풀이  
+## 풀이 1  
 
 ```js
 // file: "solution.js"  
-function solution(seoul) {
-    var answer = `김서방은 ${seoul.indexOf("Kim")}에 있다`
-    return answer;
+function solution(n) {
+    let result = "";
+    for(let i = 1; i<=n; i++){
+        if(i % 2 === 0){
+            result += "박";
+        }else{
+            result += "수";
+        }
+    }
+    return result
+}
+```  
+## 설명  
+
+* result에 빈문자열을 변수에 담는다.
+* 반복문을 사용하여 인자 n 만큼 반복하게 한다.  
+* `i % 2 === 0`으로 짝수면 `result`에 "박"을 담고 홀수면 "수"를 담는다. 
+* `result`를 리턴한다.
+
+<br>
+
+## 풀이 2  
+
+```js
+// file: "solution.js"  
+function solution(n) {
+    return "수박".repeat(n).substring(0, n)
 }
 ```  
 
 ## 설명  
 
-* `indexOf()` 는 객체에서 주어진 값과 일치하는 첫 번째 인덱스를 반환한다.  
-* seoul 이라는 배열 안에 "Kim" 이라는 문자열의 인덱스를 찾으면 된다.
-   * `seoul.indexOf("Kim")`  
-* 배열 seoul 안에 "Kim" 인덱스는 1이니 "김서방은 1에 있다" 라고 출력된다.
+풀이 1보다 더 간략하게 만든 풀이이다.  
+* `repeat` 를 사용하여 인자 n 만큼 "수박"을 반복한다.
+* `substring`을 사용 하여 지정된 문자 열까지만 반환한다.
+  * (시작인덱스, 종료인덱스) substring(0, n) -> 0번 인덱스부터 n까지 반환
