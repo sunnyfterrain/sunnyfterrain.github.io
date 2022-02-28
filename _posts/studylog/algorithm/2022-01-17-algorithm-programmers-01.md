@@ -16,10 +16,7 @@ image:
 {:.note title="Link"}  
 # 서울에서 김서방 찾기
 ---  
-
-
-
-
+> 알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.
 ## 문제 설명
 > String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아,  
 > "김서방은 x에 있다"는 String을 반환하는 함수, solution을 완성하세요.  
