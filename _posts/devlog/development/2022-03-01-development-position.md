@@ -22,10 +22,10 @@ image:
 position 은 객체를 원하는 곳에 위치시키고 레이아웃을 배치하는 CSS의 속성이다.  
 위, 아래, 왼쪽, 오른쪽 (top, bottom, left, right)의 위치를 같이 설정 한다.  
 
-1. __static__  
+* __static__  
 기본값이다. 아무런 속성도 지정하지 않았을때와 동일하다.  
 
-2. __relative__  
+* __relative__  
 현재의 객체가 기준점으로 위치가 계산 된다.  
 ![relative](asset/img/../../../../../assets/img/develop/2022-03-01-develop/2022-03-01-static.png){:.centered}  
 
@@ -50,7 +50,7 @@ position 은 객체를 원하는 곳에 위치시키고 레이아웃을 배치�
     }
 ```
 
-3. __absolute__  
+* __absolute__  
 원래 객체의 위치와는 상관없이 위치를 지정할 수 있으며 부모 요소의 속성이 relative 일 경우  
 그 요소가 기준으로 위치가 조정된다.  
 
@@ -75,7 +75,7 @@ position 은 객체를 원하는 곳에 위치시키고 레이아웃을 배치�
       left: 500px;
     }
 ```
-4. __fixed__  
+* __fixed__  
 원래의 위치와 상관없이 위치를 지정할 수 있으며 브라우저의 화면이 바뀌더라도 고정된 위치를 가진다.  
 
 ![fixed](asset/img/../../../../../assets/img/develop/2022-03-01-develop/2022-03-01-fixed.gif){:.centered}  
@@ -111,8 +111,14 @@ Position 참고 그림
 
 [position - MDN]
 {:.note title="Link"}  
+## 주로 어떨때 쓰일까?  
 
-<br>  
+그렇다면 주로 어떨때 쓰일까? 나는 주로 어떤 아이콘이나 세세한 움직임이 필요한  
+요소들에 대해서 relative 와 absolute를 적절하게 쓴다.  
+
+그리고 nav 나 어떠한 사이드 메뉴를 스크롤을 내려도 고정하고 싶다 할때는  
+fixed를 쓰고 여기에는 명시하지 않고 다른 포스팅에 있지만 브라우저의 스크롤에 따라  
+움직이다가 어느 특정 위치에서 고정하고 싶을때 sticky 속성을 쓴다.
 
 # inline, inline-block, block  
 ---  
