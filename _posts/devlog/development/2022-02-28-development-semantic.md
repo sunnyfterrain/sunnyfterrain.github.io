@@ -4,6 +4,8 @@ title: 'Semantic Web 과 Semantic Tag'
 subtitle: 'Semantic Web 과 Semantic Tag'
 category: devlog
 tags: development html
+image:
+  path:    /assets/img/htmllogo.jpg
 ---
 [Semantic - MDN]:https://developer.mozilla.org/ko/docs/Glossary/Semantics
 요즘 HTML을 공부하다보면 '시멘틱 웹' '시멘틱 태그' 가 필수적으로 보인다.  

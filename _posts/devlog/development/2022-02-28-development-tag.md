@@ -4,6 +4,8 @@ title: 'img 태그와 Background-img 의 차이'
 subtitle: 'img 태그와 Background-img 의 차이'
 category: devlog
 tags: development html css
+image:
+  path:    /assets/img/csslogo.jpg
 ---
 
 웹페이지에서 이미지를 넣는 방법은 두가지가 있다.  

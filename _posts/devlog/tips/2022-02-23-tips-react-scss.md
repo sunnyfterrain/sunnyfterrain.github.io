@@ -4,6 +4,8 @@ title: '리액트(React) 에서 SCSS 사용하는 법'
 subtitle: '리액트(React) 에서 SCSS 사용하는 법'
 category: devlog
 tags: tips react scss
+image:
+  path:    /assets/img/sasslogo.png
 ---
 
 프론트엔드 개발자라면 필수적으로 CSS 작업을 해야 할 일이 생긴다.  

@@ -4,6 +4,8 @@ title: 'NodeList? HTMLCollection? 비슷한듯 다른 차이점'
 subtitle: 'NodeList? HTMLCollection? 비슷한듯 다른 차이점'
 category: devlog
 tags: development javascript
+image:
+  path:    /assets/img/jslogo.jpeg
 ---
 
 초심자 입장에서 자바스크립트를 공부하다 보면 배열과 객체에 관련된 건 항상 헷갈리는 일이 많다.  

@@ -4,6 +4,8 @@ title: 'CSS Position 속성들과 inline, block'
 subtitle: 'CSS Position 속성들과 inline, block'
 category: devlog
 tags: development css
+image:
+  path:    /assets/img/csslogo.jpg
 ---
 [position - MDN]:https://developer.mozilla.org/ko/docs/Web/CSS/position
 웹페이지를 꾸미기 위하여 CSS를 쓰다 보면 우리는 필수 적으로 Position 속성을 사용할 때가 많다.  
@@ -99,6 +101,12 @@ position 은 객체를 원하는 곳에 위치시키고 레이아웃을 배치�
     }
 ```  
 
+
+![ref](asset/img/../../../../../assets/img/develop/2022-03-01-develop/2022-03-01-ref.png){:.centered}
+Position 참고 그림
+{:.figcaption}  
+
+<br>  
 자세한 사항은 MDN을 참고하기 바란다.  
 
 [position - MDN]

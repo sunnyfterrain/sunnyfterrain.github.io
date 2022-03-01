@@ -4,6 +4,8 @@ title: 'CSS - Position: Sticky 가 잘 안될때'
 subtitle: 'CSS - Position: Sticky 가 잘 안될때'
 category: devlog
 tags: tips css
+image:
+  path:    /assets/img/csslogo.jpg
 ---
 
 HTML을 마크업하고 CSS를 적용할 때 상단 NAV 메뉴바를 만들었고 스크롤을 내리면  
