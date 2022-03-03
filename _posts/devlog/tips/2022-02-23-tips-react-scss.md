@@ -31,7 +31,7 @@ image:
 * 끝이다. 아주 간단하다.  
 * 당연하겠지만 scss를 사용할 해당 리액트 앱 마다 따로 해줘야 한다.  
 
-![json](/assets/img/tips/2020-02-23-react-scss/2022-02-23-react-scss.png){:.centered} package.json 파일  
+![json](/assets/img/tips/2022-02-23-react-scss/2022-02-23-react-scss.png){:.centered} package.json 파일  
 {:.figcaption}  
 
 * package.json 에 node-sass 가 있는지 확인하자!  
