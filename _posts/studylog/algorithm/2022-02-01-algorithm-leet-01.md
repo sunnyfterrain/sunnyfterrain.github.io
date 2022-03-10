@@ -67,7 +67,6 @@ var twoSum = function(nums, target) {
 
 ## 설명  
 
-
 * for 문 두개를 사용하여 하나는 기존배열에 +1을 하여 돈다.  
 * 두개의 다른 for문이 배열의 인덱스를 돌며 값을 더한 후 target과 비교  
 * target과 같은 값이 나오는 배열 인덱스를 반환한다.  
