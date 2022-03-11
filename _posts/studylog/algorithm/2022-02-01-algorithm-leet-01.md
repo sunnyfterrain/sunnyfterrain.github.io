@@ -22,11 +22,11 @@ image:
 __알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.__  
 
 ## 문제 설명  
->정수인 배열 num 과 정수인 숫자 target 이 인자로 주어집니다.
+>정수인 배열 num 과 정수인 숫자 target 이 인자로 주어집니다.  
 >num 배열의 두 숫자 인덱스를 더하여 target 을 반환해야합니다.
 
 __원문__
->Given an array of integers nums and an integer target,
+>Given an array of integers nums and an integer target,  
 >return indices of the two numbers such that they add up to target.  
 
 ## 예제  
