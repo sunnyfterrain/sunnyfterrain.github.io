@@ -11,35 +11,33 @@ image:
 리액트로 뚝딱뚝딱 무언가를 만들고 드디어 빌드!!  
 `npm run build` ... 완료!! 얼른 Github에 올리고 배포배포! 자동배포 완료!  
 
-엇.. 그런데.. 왜 빈화면만 나오지? 분명 빌드는 잘 됐는데..?
+엇.. 그런데.. 왜 빈 화면만 나오지? 분명 빌드는 잘 됐는데..?  
+
+아~ 이것 때문이었구나 한번 해결해 보자!  
 
 <!-- more -->
 
-1. this ordered seed list will be replaced by the toc 
-{:toc}  
-
-## 설치방법  
+## 해결방법  
 ---  
 
-우선 터미널로 컴파일러를 설치해줘야 한다.  
-* SCSS를 적용하고 싶은 리액트 앱 폴더로 이동한다.  
-* 컴파일러를 설치한다.  
-  * yarn 일 경우 `yarn add node-sass`  
-  * npm 일 경우 `npm install node-sass`  
+* 무엇 때문인지는 모르나 `Link` 와 `Script` 경로가 로컬 경로로 아닌채로 빌드된다.  
 
-* 끝이다. 아주 간단하다.  
-* 당연하겠지만 scss를 사용할 해당 리액트 앱 마다 따로 해줘야 한다.  
+* 빌드하고 난후의 `index.html` 를 열어보자.  
 
-![json](/assets/img/tips/2022-02-23-react-scss/2022-02-23-react-scss.png){:.centered} package.json 파일  
+* 당황하지마라! 기존의 프리티어같은 코드정렬 확장프로그램이 있으면 살포시 저장을 눌러 정렬해주자.  
+
+![index](../../../assets/img/tips/../til/2022-03-14/2022-03-14-01.gif)
+정렬!  
 {:.figcaption}  
 
-* package.json 에 node-sass 가 있는지 확인하자!  
+* `/static/...` 경로를 현재 경로인 `./static/...` 으로 바꾸어주자! 점만 찍으면 된다.  
 
-## 사용방법  
----  
+![경로수정전](../../../assets/img/tips/../til/2022-03-14/2022-03-14-02.png)
+경로 수정 전  
+{:.figcaption}  
 
-* 지금까지 작업 하던 CSS의 확장자를 scss(sass) 로 변경  
-  * 새로 작업 할 예정이라면 파일명.scss 으로 파일 생성
-* 적용할 컴포넌트의 Import를 scss(sass) 로 변경 해준다.  
-  * 예) `import "./App.scss"`
-* 저장 하고 페이지 화면을 보면 아주 잘 적용되어 있는 것을 볼 수 있다!  
+![경로수정전](../../../assets/img/tips/../til/2022-03-14/2022-03-14-03.png)
+경로 수정 후  
+{:.figcaption}  
+
+* 이제 다시 테스트 해보면? 웹페이지가 잘 나오는것을 확인할 수 있다.
