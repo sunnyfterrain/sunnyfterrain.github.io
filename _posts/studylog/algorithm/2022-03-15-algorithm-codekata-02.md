@@ -46,10 +46,10 @@ Output: 321
 
 ```js
 // file: "solution.js"
-var reverse = function(x) {
+const reverse = x => {
   const answer = parseInt(x.toString().split('').reverse().join('')) * Math.sign(x)
-    return answer  
-};
+return answer
+}
 ```  
 
 ## 설명  
@@ -65,4 +65,3 @@ var reverse = function(x) {
 > Math.sign() 함수는 주어진 수의 부호를 나타내는 +/-1을 반환합니다.  
 > 단, Math.sign()에 제공한 수가 0일 경우 부호에 따라 +/-0을 반환합니다.  
 > 즉 주어진 수가 양수면 1을 음수면 -1을 반환한다.
-
