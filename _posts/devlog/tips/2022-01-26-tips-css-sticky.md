@@ -19,7 +19,7 @@ HTML을 마크업하고 CSS를 적용할 때 상단 NAV 메뉴바를 만들었�
 - this ordered seed list will be replaced by the toc
   {:toc}
 
-[MDN 공식문서]{:.note}
+[MDN 공식문서]{:.note title="Link"}
 
 ## 들어가기에 앞서
 
