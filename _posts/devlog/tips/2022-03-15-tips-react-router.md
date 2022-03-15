@@ -7,7 +7,7 @@ tags: tips react router
 image:
   path:    /assets/img/tips/2022-03-15-react-router/2022-03-15-router.svg
 ---
-[Router 공식문서]:(https://v5.reactrouter.com/core/api/Router)  
+[Router 공식문서]:https://v5.reactrouter.com/core/api/Router  
 
 리액트를 공부하면서 리액트 라우터도 필수적으로 하게된다. 여기서 문제점이 하나 있는데,  
 자주 version 업이 되는 라이브러리 특성상 옛날 강의를 보면 어쩔수 없이 지난 버전으로  
