@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'React Router V5 와 V6의 차이, 변경방법'
-subtitle: 'React Router V5 와 V6의 차이, 변경방법'
+title: 'React Router V5 와 V6의 차이, 변경부분'
+subtitle: 'React Router V5 와 V6의 차이, 변경부분'
 category: devlog
 tags: tips react router
 image:
@@ -39,10 +39,6 @@ image:
 
 ## Switch 는 이제 잊어라!  
 ---  
-
-* `exact` 옵션의 삭제  
-
-
 
 * 이전에는 라우터 페이지 등록을 위한 `<Route />` 를 감싸는 태그가 `<Switch />` 였다면  
 v6 에서는 `<Routes />`로 바뀌었다.  
