@@ -57,12 +57,13 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 ```js
 // file: "solution.js"
-var twoSum = function(nums, target) {
-    for (i=0; i<nums.length; i++) {
-        for (j=i+1; j<nums.length; j++){
-            if(nums[i]+nums[j]===target)
-                return ([i, j])   
-        }
+var lengthOfLongestSubstring = function(s) {
+  let start = 0;
+  let index = 0;
+  let result = "";
+  let temporary = "";
+  for (i=0; i<s.length; i++){
+    
     }
 };
 ```  
