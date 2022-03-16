@@ -8,7 +8,7 @@ image:
   path:    /assets/img/algorithm/algorithm.jpg
 ---
 
-[Leetcode #1 : Two Sum]:https://leetcode.com/problems/longest-substring-without-repeating-characters/  
+[Leetcode #3 : Longest Substring Without Repeating Characters]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 <!--more-->
 * this ordered seed list will be replaced by the toc
@@ -17,7 +17,7 @@ image:
 [Leetcode #3 : Longest Substring Without Repeating Characters]
 {:.note title="Link"}  
 
-# Two Sum  
+# Longest Substring Without Repeating Characters  
 ---  
 __알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.__  
 
@@ -58,49 +58,48 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ```js
 // file: "solution.js"
 var lengthOfLongestSubstring = function(s) {
-  let start = 0;
-  let index = 0;
-  let result = "";
-  let temporary = "";
-  for (i=0; i<s.length; i++){
-    
-    }
+    let start = 0; // #1
+    let index = 0;
+    let temporary = '';
+    let result = '';
+    for(i=0; i<s.length; i++){ // #2
+        index = temporary.indexOf(s[i]) // #3
+        if(index !== -1){ // #4
+            start = start + index + 1 // #5
+        } temporary = s.substring(start, i+1) // #6 
+        if(temporary.length > result.length) { // #7
+            result = temporary
+        }
+    }return result.length 
 };
 ```  
 
 ## 설명  
 
-* for 문 두개를 사용하여 두개중 하나는 i+1을 하여 반복문을 돈다.  
-* 두개의 다른 for문이 배열의 인덱스를 돌며 값을 더한 후 target과 비교  
-* target과 같은 값이 나오는 배열 인덱스를 반환한다.  
+1. 각 값을 저장할 변수를 설정해 준다.
+   1. start : 중복이 되지 않는 문자열이 시작 될 시작점을 지정하기 위한 변수
+   2. index : 중목되는 문자열의 인덱스를 저장하기 위한 변수
+   3. temporary : 문자열을 임시적으로 저장하기 위한 변수
+   4. result : 결과 값을 저장하기 위한 변수  
 
----  
+2. 0부터 문자열의 길이만큼 반복문을 실행
+3. 임시로 저장된 문자열변수에서 s[i]의 문자열과 겹치는 문자열이 있으면 저장
+4. 중복되는 문자 열이 있다면
+5. 시작점을 start 에 중복되는 문자열의 인덱스를 더하고 1을 더함
+   1. 1을 더하는 이유는 이전 시작점 + 인덱스는 중복되는 문자열임, 다음 문자열부터 지정
+6. 중복되지 않는다면 temporary변수에 substring으로 시작점과 중복되기전 까지의 문자열을 잘라 담음
+7. temporary의 값과 result의 값을 비교해서 더 큰 값을 result에 저장
+8. result 반환
 
-## 다른 풀이 방법  
 
-```js
-// file: "Another-solution.js"
-function twoSum(nums, target) {
-let numObj = {};
-  for (let i = 0; i < nums.length; i++) {
-    let complement = target - nums[i];
-    if (numObj[complement] !== undefined) {
-      return [numObj[complement], i];
-    }
-    numObj[nums[i]] = i;
-  }
-}
-```
+## 회고  
 
-> 인터넷에 다른 외국인분이 푸신 문제
-> 객체를 사용하여 풀었다. 어렵다.
+진심 너무 어려웠다. 제일힘들었던 것은 처음 #5번에 해당되는 변수 설정을  
+`start = i` 로만 해주었는데 이렇게해도 결과는 Accepted로 나온다.  
+하지만 중복되는 문자열이 붙어있지 않고 떨어져있으면 통과가 안되는데,  
+왜 안되는지 되게하려면 어떻게 해야하는지 고민을 많이 했다.  
 
-* 빈오브젝트를 만들어서 변수에 numObj 넣어준다.  
-* 반복문을 배열의 길이만큼 돌아준다.  
-* target 값에 num[i] 를 빼준 값을 complement 변수에 담아준다.  
-* numObj 객체의 위에서 저장한 complement 의 값이 없다면 생략하여  
- 첫번째 키값을 가진 numObj 객체에 i번째 밸류값을 넣어준다.  
-* 이렇게 돌다가 해당 키값에 대한 밸류가 존재 한다면 해당 키값이 가지고 있는 밸류값과
-인덱스를 리턴한다.  
+결국엔 중복되는 시점의 인덱스부터 시작하면안되고 중복되는 첫문자열부터  
+시작을 해야하기에 그만큼 앞으로 당겨줘야하는것...  
 
->너무 어렵다 ㅠㅠ
+난 알고리즘에 소질이 없는것같다 ㅠㅠ 그렇지만 노력할 것이다!
