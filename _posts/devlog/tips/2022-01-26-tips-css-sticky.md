@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'CSS - Position: Sticky 가 잘 안될때'
-subtitle: 'CSS - Position: Sticky 가 잘 안될때'
+title: '[CSS] Position: Sticky 가 잘 안될때'
+subtitle: '[CSS] Position: Sticky 가 잘 안될때'
 category: devlog
 tags: tips css
 image:

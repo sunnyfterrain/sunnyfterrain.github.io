@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'React Router V5 와 V6의 차이, 변경부분'
-subtitle: 'React Router V5 와 V6의 차이, 변경부분'
+title: '[React] 리액트 Router V5 와 V6의 차이, 변경부분'
+subtitle: '[React] 리액트 Router V5 와 V6의 차이, 변경부분'
 category: devlog
 tags: tips react router
 image:

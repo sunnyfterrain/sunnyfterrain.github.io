@@ -1,0 +1,104 @@
+---
+layout: post
+title: '[React] 리액트에서 input태그 Enter 키 이벤트 호출하는 방법'
+subtitle: '[React] 리액트에서 input태그 Enter 키 이벤트 호출하는 방법'
+category: devlog
+tags: tips react
+image:
+  path:    /assets/img/tips/2022-03-15-react-router/2022-03-15-router.svg
+---
+
+바닐라 자바스크립트에서 로그인 기능 구현을 할때 `Form` 태그로 `Input` 과 `Button` 태그를 감싸면  
+따로 Enter 이벤트를 구현하지 않아도 자동으로 되었다. 하지만 리액트에서는 간혹 이것이 문제가 되었다.  
+
+이번에는 꼭 클릭을 하지 않아도, 엔터 키 만으로도 버튼 클릭 이벤트를 구현하는 방법을 소개하겠다.
+
+<!-- more -->
+
+1. this ordered seed list will be replaced by the toc 
+{:toc}  
+
+
+## 로그인 페이지 
+---  
+
+* 기본적인 로그인 모양인 인풋 2개, 버튼 하나를 대충 만들어 보았다.
+* 아이디, 비밀번호를 입력후 버튼을 누르면 'main' 페이지로 이동되는 구조이다.
+
+```react
+return (
+        <form>
+          <input
+            type="text"
+            placeholder="ID 입력"
+            value={idValue}
+            onChange={handleInput}
+          />
+          <input
+            type="password"
+            placeholder="비밀번호 입력"
+            value={pwValue}
+            onChange={handleInput}
+          />
+            <input
+            type="button"
+            value="로그인"
+            onClick={()=>{navigate("/main")}}
+          />
+        </form>
+```  
+
+* 이상태로는 비밀번호까지 입력 후 엔터를 눌렀을때 아무런 응답이 없다.  
+* 마우스로 버튼을 직접 클릭 해주어야 한다.  
+
+
+## KeyPress 이벤트 함수 만들기   
+---  
+
+* 위와 같은 경우에는 비밀번호 입력 인풋 (혹은 아이디 입력 인풋)에서 Enter 이벤트가 발생한다면,
+자동으로 onClick() 이벤트가 발생하게 해주면 된다.
+* Enter 이벤트 함수와 Click 이벤트 함수를 따로 만들어 주자.
+
+```react
+const handleOnClick = () => {
+  navigate('/main');
+};
+// 버튼에 적용할 클릭 이벤트 함수
+
+
+const handleOnKeyPress = e => {
+  if (e.key === 'Enter') {
+    handleOnClick(); // Enter 입력이 되면 클릭 이벤트 실행
+  }
+};
+// 인풋에 적용할 Enter 키 입력 함수
+```  
+
+## 적용하기  
+---  
+```react
+return (
+        <form>
+          <input
+            type="text"
+            placeholder="ID 입력"
+            value={idValue}
+            onChange={handleInput}
+          />
+          <input
+            type="password"
+            placeholder="비밀번호 입력"
+            value={pwValue}
+            onChange={handleInput}
+            onKeyPress={handleOnKeyPress} // Enter 입력 이벤트 함수
+          />
+            <input
+            type="button"
+            value="로그인"
+            onClick={handleOnClick}  // 페이지 이동 함수
+          />
+        </form>
+```  
+
+* 이렇게 적용하고 나서 아이디와 비밀번호 입력 후 엔터를 누르면 Click 이벤트가 실행되면서
+다음 페이지로 잘 넘어가는 것을 볼 수 있다.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '리액트(React) 에서 SCSS 사용하는 법'
-subtitle: '리액트(React) 에서 SCSS 사용하는 법'
+title: '[React] 리액트 SCSS(SASS) 적용하는 법'
+subtitle: '[React] 리액트 SCSS(SASS) 적용하는 법'
 category: devlog
 tags: tips react scss
 image:

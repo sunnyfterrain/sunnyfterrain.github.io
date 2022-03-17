@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'React build 후 빈화면만 나온다면?'
-subtitle: 'React build 후 빈화면만 나온다면?'
+title: '[React] 리액트 build 후 빈화면만 나온다면?'
+subtitle: '[React] 리액트 build 후 빈화면만 나온다면?'
 category: devlog
 tags: tips react
 image:
