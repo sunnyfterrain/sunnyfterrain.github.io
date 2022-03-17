@@ -59,8 +59,8 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ```js
 // file: "solution.js"
 var isPalindrome = function(x) {
-    const reverse = parseInt(x.toString().split('').reverse().join('')) #1
-    return x === reverse && true #2
+    const reverse = parseInt(x.toString().split('').reverse().join('')) // #1
+    return x === reverse && true // #2
 };
 ```  
 
