@@ -28,6 +28,8 @@ __알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또�
 __원문__
 >Write a function to find the longest common prefix string amongst an array of strings.  
 >If there is no common prefix, return an empty string "".  
+
+<br>  
 ## 예제  
 
 * Example 1:
