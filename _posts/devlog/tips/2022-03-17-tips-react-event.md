@@ -5,13 +5,14 @@ subtitle: '[React] 리액트에서 input태그 Enter 키 이벤트 호출하는 
 category: devlog
 tags: tips react
 image:
-  path:    /assets/img/tips/2022-03-15-react-router/2022-03-15-router.svg
+  path:    /assets/img/reactlogo.png
 ---
 
 바닐라 자바스크립트에서 로그인 기능 구현을 할때 `Form` 태그로 `Input` 과 `Button` 태그를 감싸면  
-따로 Enter 이벤트를 구현하지 않아도 자동으로 되었다. 하지만 리액트에서는 간혹 이것이 문제가 되었다.  
+따로 Enter 이벤트를 구현하지 않아도 Enter 키로 클릭 기능이 되었다.  
+하지만 리액트에서는 간혹 이것이 기본으로 기능동작이 안되어 문제가 되었다.  
 
-이번에는 꼭 클릭을 하지 않아도, 엔터 키 만으로도 버튼 클릭 이벤트를 구현하는 방법을 소개하겠다.
+이 포스팅에서는 Enter 키 만으로도 버튼 클릭 이벤트를 구현하는 방법을 소개하겠다.
 
 <!-- more -->
 
@@ -26,18 +27,17 @@ image:
 * 아이디, 비밀번호를 입력후 버튼을 누르면 'main' 페이지로 이동되는 구조이다.
 
 ```react
+// file: "Login.js"
 return (
         <form>
           <input
             type="text"
             placeholder="ID 입력"
-            value={idValue}
             onChange={handleInput}
           />
           <input
             type="password"
             placeholder="비밀번호 입력"
-            value={pwValue}
             onChange={handleInput}
           />
             <input
