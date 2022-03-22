@@ -71,6 +71,17 @@ var majorityElement = function(nums) {
 4. 조건문으로 과반수를 알기위해 nums 배열의 길이를 2로 나누고 정수로 변환해준다.  
 그리고 nums 배열의 과반수(1/2이상) 보다 map에 저장된 밸류값이 더 큰 것이 있다면 리턴해준다.  
 
+```js
+let obj = {};
+ for(let x of nums){
+   obj[x] ? obj[x] = obj[x] + 1 : obj[x] =1
+  if(Math.floor(nums.length/2) < obj[x]) {
+return x
+   }
+}
+```
+Map을 이용한 방법과 비슷한 방법이다. 객체를 이용하는 방법!  
+
 ## 회고  
 
 처음 이문제를 보고 생각이 든게 객체로 하면되겠다 생각했었다.  
