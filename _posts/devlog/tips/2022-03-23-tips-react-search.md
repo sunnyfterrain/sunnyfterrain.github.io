@@ -28,7 +28,6 @@ image:
 * 어떠한 데이터가 들어가 있는 json 파일을 "sampleData" 라는 이름으로 불러왔다고 가정한다.  
 * 우리가 입력하는 값을 받아오는 인풋의 state는 "userInput" 이라고 정하겠다.  
 * 검색기능을 하고 ui를 만들어주는 함수의 이름은 "searchList" 라고 정해주겠다.  
-
 ```react
 // file: "search.js"
 const searchList = () =>{
