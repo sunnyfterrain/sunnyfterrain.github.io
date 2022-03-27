@@ -22,12 +22,12 @@ image:
 __알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.__  
 
 ## 문제 설명  
->Given an integer array nums and an integer k,  
->return the k most frequent elements. You may return the answer in any order.  
-
-__원문__
 >숫자가 남긴 배열 nums와 숫자 k 가 주어진다.
 >같은숫자가 많은 순서대로 k 만큼 리턴하라.
+
+__원문__
+>Given an integer array nums and an integer k,  
+>return the k most frequent elements. You may return the answer in any order.  
 
 <br>  
 ## 예제  
