@@ -5,7 +5,7 @@ subtitle: '[React] 라우터 페이지 이동시 스크롤 맨 위로 이동하�
 category: devlog
 tags: tips react
 image:
-  path:    /assets/img/routerlogo.png
+  path:    /assets/img/tips/2022-03-15-react-router/2022-03-15-router.svg
 ---
 
 리액트 라우터로 라우팅하여 페이를 이동할때 페이지가 이미 밑에 있는 상태에서  
@@ -41,6 +41,7 @@ export default function ScrollToTop() {
 예시는 `index.js`에 적용하였지만 라우터를 다른곳에 적용하였으면 그곳에 적용해준다.  
 중요한것은 `Router`를 선언한 곳 밑에 넣어주어야 한다는 것이다.  
 
+```
 // file: "index.js"
 ReactDOM.render(
   <BrowserRouter>
