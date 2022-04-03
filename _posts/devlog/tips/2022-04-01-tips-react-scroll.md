@@ -41,7 +41,7 @@ export default function ScrollToTop() {
 예시는 `index.js`에 적용하였지만 라우터를 다른곳에 적용하였으면 그곳에 적용해준다.  
 중요한것은 `Router`를 선언한 곳 밑에 넣어주어야 한다는 것이다.  
 
-```
+```js  
 // file: "index.js"
 ReactDOM.render(
   <BrowserRouter>
