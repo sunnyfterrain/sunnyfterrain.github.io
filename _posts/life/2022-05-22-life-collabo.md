@@ -84,6 +84,6 @@ __아니 이건 우리가 봐왔던 코드가 아니잖아?????__
 
 ![Completion](/assets/img/life/2022-05-22-life/tnfy.jpg)  
 함께 해서 위코드, 그동안 잘 배웠습니다.  
-{:.figcaption}  
+{:.figcaption} 
 
 
