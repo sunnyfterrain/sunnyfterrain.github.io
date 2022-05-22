@@ -66,7 +66,7 @@ __아니 이건 우리가 봐왔던 코드가 아니잖아?????__
 온몸으로 느끼고 경험해 볼 수 있어서 절대 후회를 하지 않는다.  
 (이 기업을 같이 가자고 했던 분에게 감사함을 전한다.)  
 
-![team](/assets/img/life/2022-05-22-life/panomix.jpg)  
+![panomix](/assets/img/life/2022-05-22-life/panomix.jpg)  
 한달동안 같이 근무했던 팀과, 직원분들! 행복하세요!  
 {:.figcaption}  
 
