@@ -1,7 +1,7 @@
 ---
 layout:   post
-title:    "[Inflearn #1] Inflearn JS 알고리즘"
-subtitle: "[Inflearn #1] Inflearn JS 알고리즘"
+title:    "[Inflearn #1] 세 수 중 최소값 구하기"
+subtitle: "[Inflearn #1] 세 수 중 최소값 구하기"
 category: studylog
 tags:     algorithm
 image:
