@@ -64,20 +64,6 @@ function solution(n) {
 }
 ```
 
-* 강의 해설
-```js
-// file: "solution.js"
-    function solution(a, b, c){
-                let answer="YES", max;
-                let tot=a+b+c;
-                if(a>b) max=a;
-                else max=b;
-                if(c>max) max=c;
-                if(tot-max<=max) answer="NO"; 
-                return answer;
-            }
-```
-
 ## 설명  
 
 1. 학생수 / 12(연필 한다스)를 해준다.  
