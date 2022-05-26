@@ -20,16 +20,15 @@ order: 1
 사람들과 함께 편하게 편하게 대화하며 웃고 어울리는 것을 좋아하고,  
 반대로 어디 한구석에서 혼자 조용히 코딩하는 것도 좋아합니다.  
 
-개발은 물론, 그 외 서비스, 조직문화, 운영 체계 등 도 뒷받침해 주는  
-개발자를 지향합니다.  
+개발은 물론, 그 외 서비스, 조직문화, 운영 체계 등 도 뒷받침해 주는 개발자가 되고싶습니다.  
+
+
+## Education  
+- 실무집중 개발 역량 부트캠프 WECODE front-end (Feb 2022 - May 2022)  
 
 ## Experience
-- 대한민국 공군 상사 전역  
-- 서울 출생  
+- 디지털 퍼포먼스 마케팅 Panomix 인턴쉽 (Apr 2002 - May 2002)  
+- 대한민국 공군 상사 (Apr 2006 - Dec 2021)
 
 ## Skills
-- HTML, CSS  
-- JavaScript  
-- React.js  
-- Redux
-
+`HTML/CSS` `JavaScript` `React.js` `TypeScript`
