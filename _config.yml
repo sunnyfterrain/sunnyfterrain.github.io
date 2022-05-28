@@ -86,7 +86,7 @@ excerpt_separator: <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image: /assets/img/side-bg.jpg
-accent_color: rgb(121, 173, 52)
+accent_color: rgb(38,139,210)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
