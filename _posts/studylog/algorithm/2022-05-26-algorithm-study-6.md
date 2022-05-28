@@ -53,7 +53,7 @@ __인프런 코테 대비 알고리즘 문제풀이를 정리해 놓은 것입�
 
 ## 풀이  
 
-```js
+~~~js
 // file: "solution.js"
 function solution(arr) {
   let answer = arr;
@@ -68,7 +68,7 @@ function solution(arr) {
   }
   return answer;
 }
-```
+~~~
 
 ## 설명  
 

@@ -25,11 +25,11 @@ timezone: Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  프론트엔드의 개발새싹🌱 남용현의 블로그 입니다.
+  프론트엔드의 개발자 남용현의 블로그 입니다.
 
 # A shorter description for the sidebar.
 tagline: >
-  자라나는 개발새싹🌱
+  꺼지지 않는 개발 등대💡
 
 # A list of keywords for your blog
 keywords: ['Development', 'JavaScript', 'React', 'Jekyll']
@@ -101,14 +101,16 @@ google_fonts: Nanum+Gothic:400,700|Noto+Sans+KR:400,500,700|JetBrains+Mono|Nanum
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font: Nanum Gothic, Helvetica, Arial, sans-serif
+# font: Nanum Gothic, Helvetica, Arial, sans-serif
+font: Noto Sans KR, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font_heading: Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code: JetBrains Mono, Nanum Gothic Coding, Menlo, Monaco, Consolas, monospace;
+# font_code: JetBrains Mono, Nanum Gothic Coding, Menlo, Monaco, Consolas, monospace;
+font_code: Nanum Gothic Coding, Menlo, Monaco, Consolas, monospace;
 
 # favicon
 favicon: /assets/icons/favicon.ico
