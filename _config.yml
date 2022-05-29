@@ -178,7 +178,7 @@ defaults:
         type: WebPage
 
 kramdown:
-  math_engine: mathjax
+  input: GFM
   math_engine_opts: {}
   footnote_backlink: '&#x21a9;&#xfe0e;'
   # hard_wrap:           true  # Setting it to `true` will interprets line breaks literally from the markdown file.

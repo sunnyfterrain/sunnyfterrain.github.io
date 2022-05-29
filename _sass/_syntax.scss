@@ -3,6 +3,7 @@
   pre.highlight {
     // background: #fafafa;
     color: #383a42;
+    // color: #abb2bf;
   }
   // .highlight pre {
   //   background: #fafafa;
@@ -17,24 +18,26 @@
     font-weight: 700;
   }
   .highlight .n,
-  .highlight .nf,
-  .highlight .nn,
-  .highlight .o,
-  .highlight .p {
-    color: #383a42;
+  .highlight .nn {
+    color: #8d939f;
+  }
+  .highlight .p,
+  .highlight .o {
+    color: #c678dd;
   }
   .highlight .c,
   .highlight .c1,
   .highlight .cm,
   .highlight .cp,
   .highlight .cs {
-    color: #a0a1a7;
+    color: #5c6370;
     font-style: italic;
   }
   .highlight .sr,
   .highlight .ss {
-    color: #0184bc;
+    color: #56b6c2;
   }
+
   .highlight .k,
   .highlight .kc,
   .highlight .kd,
@@ -42,8 +45,9 @@
   .highlight .kp,
   .highlight .kr,
   .highlight .kt {
-    color: #a626a4;
+    color: #c678dd;
   }
+
   .highlight .l,
   .highlight .ld,
   .highlight .s,
@@ -56,21 +60,25 @@
   .highlight .sh,
   .highlight .si,
   .highlight .sx {
-    color: #50a14f;
+    color: #98c379;
   }
-  .highlight .nt,
-  .highlight .nx,
+  .highlight .nt {
+    color: #e06c75;
+  }
+  .highlight .nx {
+    color: #abb2bf;
+  }
   .highlight .vi {
-    color: #e45649;
+    // color: #e45649;
+    color: #e06c75;
   }
   .highlight .il,
   .highlight .m,
   .highlight .mf,
   .highlight .mh,
   .highlight .mi,
-  .highlight .mo,
-  .highlight .na {
-    color: #986801;
+  .highlight .mo {
+    color: #d19a66;
   }
   .highlight .bp,
   .highlight .nb,
@@ -84,17 +92,27 @@
   .highlight .py,
   .highlight .vc,
   .highlight .vg {
-    color: #c18401;
+    color: #e5c07b;
+  }
+  .highlight .na,
+  .highlight .nf {
+    color: #0184bc;
   }
   // .highlight .err {
   //   color: #fff;
   //   background-color: #ff1414;
   // }
+
+  // .highlight .err {
+  //   color: #960050;
+  //   background-color: #1e0010;
+  // }
+
   .highlight .gd {
-    color: #ff1414;
+    color: #f92672;
   }
   .highlight .gi {
-    color: #2db448;
+    color: #a6e22e;
   }
   .highlight .w {
     color: #f8f8f2;
@@ -114,7 +132,7 @@
     user-select: none;
   }
   .highlight .ln:after {
-    content: " ";
+    content: ' ';
   }
   .highlight .hll {
     color: #383a42;
