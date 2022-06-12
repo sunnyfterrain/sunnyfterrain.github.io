@@ -71,7 +71,7 @@ function solution(test) {
   let count;
   for (i = 1; i <= n; i++) {
     for (j = 1; j <= n; j++) {  // #2
-      count = 0;  // #8
+      count = 0;  // #9
       for (k = 0; k < m; k++) { // #3
         let mto = 0;  // #4
         let mti = 0;
@@ -81,7 +81,7 @@ function solution(test) {
         }
         if (mto > mti) count++;  // #7
       }
-      if (count === m) answer++;  // #9
+      if (count === m) answer++;  // #8
     }
   }
   return answer;
@@ -100,4 +100,6 @@ function solution(test) {
 7. 멘토가 더 등수가 높아야 하니 3개의 테스트 결과에서 멘토가 높았던 횟수를 카운트 해 줍니다.  
 8. 모든 테스트의 결과가 멘티보다 멘토가 더 높은 등수야 하므로 카운트의 수는 테스트 결과의 수(m)와  
 같아야 하므로 같다면 answer를 증가시켜 줍니다.  
+9. 그리고 다시 다음 사람을 돌아야 하므로 count는 0으로 초기화  
+
 
