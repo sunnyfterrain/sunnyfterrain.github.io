@@ -2,8 +2,19 @@
 .sidebar a {
   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 }
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'S-CoreDream-3Light';
+}
 
-.post-title, .page-title {
+.post-title,
+.page-title {
   word-break: keep-all;
 }
 
@@ -14,7 +25,7 @@
 }
 
 .sidebar-nav {
-margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .sidebar-sticky {
@@ -24,15 +35,14 @@ margin: 2rem 0;
 }
 
 .sidebar-nav-item {
-  padding: .25rem 0;
-  width:100%;
+  padding: 0.25rem 0;
+  width: 100%;
   text-decoration: none;
   font-size: 20px;
   opacity: 0.8;
 }
 
-
-.sidebar-nav-item:hover{
+.sidebar-nav-item:hover {
   opacity: 1;
 }
 
@@ -53,17 +63,15 @@ hy-push-state a {
   // opacity: 0.7;
 }
 
-.related-posts>li,
-.related-posts>li+li {
+.related-posts > li,
+.related-posts > li + li {
   margin-top: 0.5rem;
 }
-
-
 
 .sidebar-nav-subitem {
   @extend .f4;
   width: 100%;
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   display: inline-block;
   font-size: 1rem;
   font-weight: 500;
@@ -94,7 +102,7 @@ hy-push-state a {
 
 // Submenu Insertion
 
-.spread-btn{
+.spread-btn {
   background: none;
   border: none;
   color: white;
@@ -104,7 +112,7 @@ hy-push-state a {
   width: 100%;
 }
 
-.spread-btn:hover{
+.spread-btn:hover {
   opacity: 0.7;
 }
 
@@ -112,35 +120,45 @@ hy-push-state a {
   font-size: 29px;
 }
 
-
-input[type=checkbox]{
+input[type='checkbox'] {
   display: none;
 }
 
-input[type=checkbox] ~ ul{
+input[type='checkbox'] ~ ul {
   height: 0;
   transform: scaleY(0);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
-input[type=checkbox]:checked ~ ul{
+input[type='checkbox']:checked ~ ul {
   height: 100%;
   list-style: none;
   transform-origin: top;
   transform: scaleY(1);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
-
 
 // Prevent FOUC
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  20% { opacity: 0; }
-  40% { opacity: 0.4; }
-  60% { opacity: 0.6; }
-  80% { opacity: 0.8; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .no-fouc {
@@ -155,4 +173,3 @@ input[type=checkbox]:checked ~ ul{
 }
 
 // main
-

@@ -102,5 +102,3 @@ function solution(m, product) {
 9. count의 숫자를 올려줍니다.  
 10. answer와 count중 높은 수를 answer에 대입해 줍니다.  
 11. 다음 반복문을 위해 카운트를 1로(할인된 선물의 값이 있기때문에 1) 초기화 해줍니다.  
-
-
