@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Semantic Web 과 Semantic Tag'
-subtitle: 'Semantic Web 과 Semantic Tag'
+title: '[HTML] Semantic Web 과 Semantic Tag'
+subtitle: '[HTML] Semantic Web 과 Semantic Tag'
 category: devlog
 tags: development html
 image:

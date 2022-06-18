@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '자바스크립트 Prototype? 대체 프로토타입이 뭘까?'
-subtitle: '자바스크립트 Prototype? 대체 프로토타입이 뭘까?'
+title: '[JavaScript] Prototype? 대체 프로토타입이 뭘까?'
+subtitle: '[JavaScript] Prototype? 대체 프로토타입이 뭘까?'
 category: devlog
 tags: development javascript
 image:

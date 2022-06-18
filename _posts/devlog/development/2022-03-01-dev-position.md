@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'CSS Position 속성들과 inline, block'
-subtitle: 'CSS Position 속성들과 inline, block'
+title: '[CSS] CSS Position 속성들과 inline, block'
+subtitle: '[CSS] CSS Position 속성들과 inline, block'
 category: devlog
 tags: development css
 image:

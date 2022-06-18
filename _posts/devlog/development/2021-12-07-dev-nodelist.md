@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'NodeList? HTMLCollection? 비슷한듯 다른 차이점'
-subtitle: 'NodeList? HTMLCollection? 비슷한듯 다른 차이점'
+title: '[JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점'
+subtitle: '[JavaScript] NodeList? HTMLCollection? 비슷한듯 다른 차이점'
 category: devlog
 tags: development javascript
 image:
