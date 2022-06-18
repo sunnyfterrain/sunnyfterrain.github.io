@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '기업 인턴 1개월 회고 (with bootcamp completion)'
-subtitle: '기업 인턴 1개월 회고 (with bootcamp completion)'
+title: '[회고] 기업 인턴 1개월 마치고 (with bootcamp completion)'
+subtitle: '[회고] 기업 인턴 1개월 마치고 (with bootcamp completion)'
 category: life
 tags: life
 ---
