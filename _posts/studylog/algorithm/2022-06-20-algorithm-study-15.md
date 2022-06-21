@@ -10,12 +10,12 @@ image:
 
 <!--more-->
 
-[백준 #10799] 쇠막대기:https://www.acmicpc.net/problem/10799
+[백준 #10799 : 쇠막대기 ]:https://www.acmicpc.net/problem/10799
 
 * this ordered seed list will be replaced by the toc
 {:toc}  
 
-[백준 #10799] 쇠막대기  
+[백준 #10799 : 쇠막대기]  
 {:.note title="Link"}  
 
 __알고리즘을 푸는 스타일은 사람마다 다 다르므로 이것 또한 저의 주관적인 풀이 입니다.__  
