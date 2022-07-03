@@ -113,6 +113,8 @@ npm install -D html-webpack-plugin clean-webpack-plugin
 
 이제 npm으로 설치해야 할 것은 다 설치 했습니다. 이제 설정으로 가봅시다.  
 
+* 타입스크립트를 하신다면 추가로 설치해 줍니다.  
+* `npm i @types/node @types/webpack @babel/preset-typescript`  
 ## 웹팩과 바벨 설정  
 
 * 웹팩 먼저 설정 하겠습니다.  
