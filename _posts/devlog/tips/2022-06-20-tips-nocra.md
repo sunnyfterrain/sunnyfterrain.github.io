@@ -49,66 +49,51 @@ npm install typescript
 npm install @types/react @types/react-dom
 ```  
 
-* 타입스크립트를 하시는 분은 최상위 폴더에 `tsconfig.json` 을 만드세요.  
-```
-// file: "tsconfig.json"
-// 기본설정파일
-{
-  "compilerOptions": {
-    "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["src"]
-}
+* 타입스크립트를 하시는 분은 `tsconfig.json` 파일도 도 만들어 줍시다.
+```  
+tsc --init
 ```  
 
 ## 웹팩과 바벨 설치  
 
 * 웹팩과 바벨 관련 파일을 설치 하겠습니다.  
 
+  * webpack : 웹팩 코어  
+  * webpack-cli: 웹팩을 CLI에서 사용  
+  * webpack-dev-server : 실시간 개발 서버 환경을 구동가능  
+
 ```
 npm install -D webpack webpack-cli webpack-dev-server 
+```
 
-// webpack : 웹팩 코어
-// webpack-cli: 웹팩을 CLI에서 사용
-// webpack-dev-server : 실시간 개발 서버 환경을 구동가능
+  * css-loader : CSS 코드를 JS가 이해할 수 있게 변환
+  * style-loader : 변환된 CSS 파일을 index.html의 `<style>` 태그에 삽입
+  * babel-loader : ES6+, JSX 문법을 트랜스파일링
 
+```
 npm install -D css-loader style-loader babel-loader
+```
 
-// css-loader : CSS 코드를 JS가 이해할 수 있게 변환
-// style-loader : 변환된 CSS 파일을 index.html의 `<style>` 태그에 삽입
-// babel-loader : ES6+, JSX 문법을 트랜스파일링
+* 브라우저 별로 서로 다른 자바스크립트를 이해할 수 있도록 통합해 줄 babel을 설치 합니다.  
+* 바벨의 모듈은 @ 마크가 붙는 특징이 있습니다.
 
+  * babel/core : 바벨코어
+  * babel/preset-react : 리액트의 JSX 코드를 트랜스파일링
+  * babel/preset-env : ES6 코드를 ES5로 트랜스파일링
+
+
+```
 npm install -D @babel/core @babel/preset-react @babel/preset-env
-
-// 서로 다른 자바스크립트간의 문법 코드를 브라우저 별로 이해할 수 있도록 통합해줄
-// babel/core : 바벨코어
-// babel/preset-react : 리액트의 JSX 코드를 트랜스파일링
-// babel/preset-env : ES6 코드를 ES5로 트랜스파일링
-// 바벨의 모듈은 @ 마크가 붙는 특징이 있다.
 ```  
 
 
 * 플러그인을 설치 하겠습니다.  
 
+  * html-webpack-plugin : HTML 파일에 번들링된 JS 코드를 삽입하고, dist 폴더에 번들링된 결과를 옮겨줌
+  * clean-webpack-plugin : 번들링 할 때 마다 이전의 번들링 결과를 제거
+
 ```
 npm install -D html-webpack-plugin clean-webpack-plugin
-
-// html-webpack-plugin : HTML 파일에 번들링된 JS 코드를 삽입하고, dist 폴더에 번들링된 결과를 옮겨줌
-// clean-webpack-plugin : 번들링 할 때 마다 이전의 번들링 결과를 제거
 ```  
 
 이제 npm으로 설치해야 할 것은 다 설치 했습니다. 이제 설정으로 가봅시다.  
