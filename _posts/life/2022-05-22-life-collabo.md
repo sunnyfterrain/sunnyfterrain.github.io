@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '[회고] 기업 인턴을 마치고  '
-subtitle: '[회고] 기업 인턴을 마치고 '
+title: '[회고] 기업 인턴을 마치고'
+subtitle: '[회고] 기업 인턴을 마치고'
 category: life
 tags: life
 ---
